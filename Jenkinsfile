@@ -23,7 +23,7 @@ pipeline {
         
          stage('Provision infrastructure') {
             steps {
-                dir("terraform07") 
+                dir("webserver") 
                 {
                 sh 'terraform init'
                 sh 'terraform plan'
