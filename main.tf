@@ -1,12 +1,12 @@
 # Configure the Google Cloud provider
 provider "google" {
-  project = "silent-thunder-256105"
+  project = "ishaqgcpproject"
   region  = "us-east1"
 }
 
 # Create a Google Compute Firewall
 resource "google_compute_firewall" "instance" {
-  name    = "terraform-example-instance"
+  name    = "webserver"
   network = "default"
 
   source_ranges = ["0.0.0.0/0"]
