@@ -1,6 +1,6 @@
 # Configure the Google Cloud provider
 provider "google" {
-  project = "ishaqgcpproject"
+  project = "lyrical-shore-262101"
   region  = "us-east1"
 }
 
